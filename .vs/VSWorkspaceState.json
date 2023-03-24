@@ -2,15 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\Http",
-    "\\app\\Http\\Middleware",
-    "\\app\\Models",
-    "\\database",
-    "\\database\\migrations",
-    "\\database\\seeders",
-    "\\public",
-    "\\public\\imageUpload"
+    "\\resources",
+    "\\resources\\views"
   ],
-  "SelectedNode": "\\app\\Http\\Controllers\\company_controller.php",
+  "SelectedNode": "\\resources\\views\\login.blade.php",
   "PreviewInSolutionExplorer": false
 }

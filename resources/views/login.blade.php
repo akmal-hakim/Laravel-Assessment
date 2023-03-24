@@ -60,7 +60,6 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="/register">Create an Account!</a>
                                         @if($errors->any())
                                             <h4 style="color:red;">{{$errors->first()}}</h4>
                                         @endif

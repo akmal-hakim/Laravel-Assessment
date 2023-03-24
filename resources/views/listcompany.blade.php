@@ -197,14 +197,20 @@
 
                                                                         <div class="form-group row">
                                                                             <div class="col-sm-6">
+                                                                                <input type="file" name="src_pic" id="src_pic" class="form-control form-control-user" value="{{$item->src_pic}}" required>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
                                                                                 <input type="text" class="form-control form-control-user" name="website" id="website" value="{{$item->website}}"
                                                                                     placeholder="Website Name..." required>
                                                                                 @if($errors->any())
                                                                                     <p style="color:red;">{{$errors->first('website')}}</p>
                                                                                 @endif
                                                                             </div>
+                                                                        </div>
+
+                                                                        <div class="form-group row">
                                                                             <div class="col-sm-6">
-                                                                                <input type="file" name="src_pic" id="src_pic" class="form-control form-control-user" value="{{$item->src_pic}}" required>
+                                                                                <img src="{{ asset('/imageUpload/'.$item->src_pic) }}" width="200px" height="200px" alt="image">
                                                                             </div>
                                                                         </div>
 
